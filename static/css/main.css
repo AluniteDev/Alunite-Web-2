@@ -34,4 +34,28 @@ body {
     left: 50%;
     margin-top: -300px;
     margin-left: -150px;
+    opacity: 1;
+}
+.title {
+    background: url("../img/AluniteBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 220px;
+    margin-left: 200px;
+    position: absolute;
+    color: white;
+    font-size: 50pt;
+    font-family: 'Poppins', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25pt;
+    margin-top: 420px;
+    margin-left: 200px;
+    position: absolute;
 }
