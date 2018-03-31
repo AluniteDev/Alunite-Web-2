@@ -3,7 +3,6 @@ body {
     background: url("../img/AluniteBG.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
 }
 ::-webkit-scrollbar {
@@ -40,18 +39,22 @@ body {
     z-index: 1;
 }
 .title {
-    background: url("../img/AluniteBG.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     color: white;
     font-size: 50pt;
     margin-top: 150px;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
     -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+                url("../img/AluniteBG.png") repeat;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
 }
 .sub {
     color: white;
