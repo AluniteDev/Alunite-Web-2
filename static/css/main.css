@@ -19,10 +19,12 @@ body {
     border-radius: 1px;
 }
 .heading {
-    height:100vh;
-    width: 50%;
-    margin-left: 50%;
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     background-color: rgb(36, 36, 36);
+    text-align: center;
 }
 .logocont {
     height: 300px;
@@ -32,9 +34,10 @@ body {
     background-size: cover;
     top: 50%;
     left: 50%;
-    margin-top: -300px;
+    margin-top: -180px;
     margin-left: -150px;
     opacity: 1;
+    z-index: 1;
 }
 .title {
     background: url("../img/AluniteBG.png");
@@ -42,11 +45,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    margin-top: 220px;
-    margin-left: 200px;
-    position: absolute;
     color: white;
     font-size: 50pt;
+    margin-top: 150px;
+    margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,8 +56,6 @@ body {
 .sub {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 25pt;
-    margin-top: 420px;
-    margin-left: 200px;
-    position: absolute;
+    font-size: 20pt;
+    margin-top: 20px;
 }
