@@ -44,7 +44,6 @@ body {
     margin-top: 150px;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    background-clip: text;
     color: white;
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(transparent, transparent),
@@ -63,34 +62,15 @@ body {
     margin-top: 0px;
     margin-bottom: 0;
 }
-.buttonC {
-    height: 50px;
-    width: 100%;
-    display: inline-block;
-}
 .button {
-    height: 95px;
-    width: 450px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: white;
-    background-color: rgb(79, 79, 79);
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    transition-duration: 100ms;
-}
-.buttoni {
-    font-size: 20pt;
+    padding: 5px;
+    background-color: slateblue;
+    font-weight: bolder;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    border-radius: 10%;
 }
-.buttont {
-    font-size: 20pt;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    display: inline-block;
+.button:hover {
+    color: lightcoral;
 }
-#discord:hover {
-    background-color: #7289DA;
-}
+
