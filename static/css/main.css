@@ -44,7 +44,6 @@ body {
     margin-top: 150px;
     margin-bottom: 0;
     font-family: 'Poppins', sans-serif;
-    background-clip: text;
     color: white;
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(transparent, transparent),
@@ -62,4 +61,15 @@ body {
     font-size: 20pt;
     margin-top: 20px;
     margin-bottom: 0;
+}
+.button {
+    padding: 5px;
+    background-color: slateblue;
+    font-weight: bolder;
+    color: white;
+    font-size: 200%;
+    border-radius: 10%;
+}
+.button:hover {
+    color: lightcoral;
 }
