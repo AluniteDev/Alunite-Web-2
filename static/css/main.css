@@ -62,7 +62,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0;
 }
-.button {
+/* .button {
     padding: 5px;
     background-color: slateblue;
     font-weight: bolder;
@@ -72,12 +72,16 @@ body {
 }
 .button:hover {
     color: lightcoral;
-}
-/* .dbutt {
-    height: 30px;
-    width: 100px;
+} */
+.dbutt {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 50px;
     background-color: #49c5b6;
+    display: inline-block;
+    margin: 0;
+    margin-top: 10px;
 
     border-style: solid;
     border-width: 1px;
@@ -86,8 +90,9 @@ body {
 
     color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 20pt;
     text-align: center;
-    line-height: 30px;
+    line-height: 37px;
 }
 .dbutt:hover {
     background-color: transparent; 
@@ -96,4 +101,12 @@ body {
     border-color: #49c5b6;
     
     color: #49c5b6;
-} */ 
+}
+.info {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: #555;
+}
