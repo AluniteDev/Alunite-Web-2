@@ -1,13 +1,11 @@
 # Alunite Web 2
-Maybe a new website for Alunite Community!
-
-The old website for Alunite Community was a bit old and dodgy so we decided to redo it and try and make it compatable for mobile as much as possible!
-
-This website will once again use node.js to display the member count etc. but that this point we are just trying to get the design done.
+This repo is the work-in-progress v2 of the Alunite Website. We decided to ditch Devon's template for something that would be nicer and more appealing. The functionality such as member counts, avatars, etc. isn't implemented yet, but it will be soon! Hope you enjoy the new Alunite Website.
 
 # Devs supporting the project
 Dan
 
 Ethan
+
+Hydrogen (Kendog)
 
 Mason
