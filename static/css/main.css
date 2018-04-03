@@ -73,3 +73,27 @@ body {
 .button:hover {
     color: lightcoral;
 }
+/* .dbutt {
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #49c5b6;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #49c5b6;
+    transition-duration: 200ms;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+.dbutt:hover {
+    background-color: transparent; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: #49c5b6;
+    
+    color: #49c5b6;
+} */ 
